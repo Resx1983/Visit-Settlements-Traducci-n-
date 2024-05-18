@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- Gizmos -->
+  <VS_EnterSettlementLabel>Entrar</VS_EnterSettlementLabel>
+  <VS_EnterSettlementDesc>Entra a este asentamiento.</VS_EnterSettlementDesc>
+  
+  <VS_ReformCaravanLabel>Reformar caravana</VS_ReformCaravanLabel>
+  <VS_ReformCaravanDesc>Reforma la caravana para salir de este asentamiento.</VS_ReformCaravanDesc>
+  
+  <!-- Vehicle Framework -->
+  <VS_ReformVehicleCaravanLabel>Reformar caravana con vehículos</VS_ReformVehicleCaravanLabel>
+  <VS_ReformVehicleCaravanDesc>Reforma la caravana con los vehículos.</VS_ReformVehicleCaravanDesc>
+
+  <!-- Interaction -->
+  <VS_InteractWithAllyLabel>Interactuar con {0}</VS_InteractWithAllyLabel>
+  <InteractWithAlly.reportString>interactuando con {0}.</InteractWithAlly.reportString>
+  <VS_FloatMenu_CannotReach>No puede interactuar con {0}: Sin paso</VS_FloatMenu_CannotReach>
+  
+  <!-- Interaction Menu -->
+  <VS_InteractingWith>Interactuando con {0}:</VS_InteractingWith>
+  <VS_RentBeds>Rentar camas</VS_RentBeds>
+  <VS_TradeSupplies>Comerciar</VS_TradeSupplies>
+  <VS_SelectNumberDays>Seleccionar un número de días para: {0}</VS_SelectNumberDays>
+  <VS_TotalCost>Costo: {0} Plata</VS_TotalCost>
+  <VS_RoomID>ID del cuarto: {0}</VS_RoomID>
+  <VS_TotalBeds>  - Camas: {0}</VS_TotalBeds>
+  <VS_BedExpiration>  - Vencimiento: quedan {0} días</VS_BedExpiration>
+  <VS_NoValidRooms>No es un cuarto válido para rentar cama.</VS_NoValidRooms>
+  <VS_UsedSilverRent>Usados {0} de plata para rentar por {1} días. ID de la habitación: {2}</VS_UsedSilverRent>
+  <VS_NotEnoughSilverReq>Plata insuficiente. Requieres {0} de plata.</VS_NotEnoughSilverReq>
+  <VS_BedsExpired>Tus camas han expirado.</VS_BedsExpired>
+  <VS_RoomRentCancelled>La renta del cuarto {0} ha sido cancelada. {1} de plata reembolsada.</VS_RoomRentCancelled>
+  <VS_CancelRoom>Cancelar cuarto</VS_CancelRoom>
+  <VS_QuantitiesSelectedCost>{0} - {1} seleccionado (Costo: {2} de plata cada uno)</VS_QuantitiesSelectedCost>
+  <VS_CompleteTransaction>Completar transacción</VS_CompleteTransaction>
+  <VS_NoItemsSelected>Sin objetos para intercambio.</VS_NoItemsSelected>
+  <VS_TransactionCompleted>Transacción completada! {0} de plata usada.</VS_TransactionCompleted>
+
+  <!-- History Events -->
+  <ItemStolenFromSettlement.label>robar objeto de asentamiento</ItemStolenFromSettlement.label>
+  <EncroachedInSettlement.label>invadir asentamiento</EncroachedInSettlement.label>
+  <VandalizedInSettlement.label>vandalizar asentamiento</VandalizedInSettlement.label>
+  
+  <!-- Settings Menu -->
+  <VS_PenaltySettings>Opciones de penalización</VS_PenaltySettings>
+  <VS_EnablePenalties>Habilitar sanciones</VS_EnablePenalties>
+  <VS_BasePenalty>Penalización: {0}</VS_BasePenalty>
+  <VS_ScalingFactor>Factor de escalado: {0}</VS_ScalingFactor>
+  <VS_EnableStealingPenalty>Habilitar penalización por robo</VS_EnableStealingPenalty>
+  <VS_EnableDestructionPenalty>Habilitar penalización por destrucción</VS_EnableDestructionPenalty>
+  <VS_EnableEncroachingPenalty>Habilitar penalización por invasión</VS_EnableEncroachingPenalty>
+  <VS_EnableMinifyingPenalty>Habilitar penalización por desmontar</VS_EnableMinifyingPenalty>
+  <VS_EnableCaravanPenalty>Habilitar penalización por robo en caravana</VS_EnableCaravanPenalty>
+  <VS_EnableMiningPenalty>Habilitar penalizción por minar</VS_EnableMiningPenalty>
+  <VS_ResetSettings>Restablecer opciones</VS_ResetSettings>
+  <VS_BasePenaltyTooltip>Penalización base: {0}. La penalización base de Buena Voluntad.</VS_BasePenaltyTooltip>
+  <VS_ScalingFactorTooltip>Factor de escalado: {0}. Determina un multiplicador de cuánto afecta el valor del producto a la penalización por robo</VS_ScalingFactorTooltip>
+  <VS_EnableStealingPenaltyTooltip>Habilitar o deshabilitar penalización por robo. (en el mapa)</VS_EnableStealingPenaltyTooltip>
+  <VS_EnableDestructionPenaltyTooltip>Habilitar o deshabilitar penalización por destrucción.</VS_EnableDestructionPenaltyTooltip>
+  <VS_EnableEncroachingPenaltyTooltip>Habilitar o deshabilitar penalización por invadir. (construcción)</VS_EnableEncroachingPenaltyTooltip>
+  <VS_EnableMinifyingPenaltyTooltip>Habilitar o deshabilitar penalización por desmontar cosas.</VS_EnableMinifyingPenaltyTooltip>
+  <VS_EnableCaravanPenaltyTooltip>Habilitar o deshabilitar penalización por seleccionar objetos del asentamiento cuando se reforma la caravana.</VS_EnableCaravanPenaltyTooltip>
+  <VS_EnableMiningPenaltyTooltip>Habilitar o deshabilitar penalización por minar.</VS_EnableMiningPenaltyTooltip>
+
+  <VS_InteractionMenu>Menú de interacción</VS_InteractionMenu>
+  <VS_EnableInteractionMenu>Habilitar menú de interacción</VS_EnableInteractionMenu>
+  <VS_BaseBedCostPerDay>Costo base de las camas por día: {0}</VS_BaseBedCostPerDay>
+  <VS_BaseBedCostPerDayTooltip>El costo base que tendrán las camas por día.</VS_BaseBedCostPerDayTooltip>
+  <VS_MaxDaySelection>Máximo de días de renta {0}</VS_MaxDaySelection>
+  <VS_MaxDaySelectionTooltip>La cantidad máxima que se te permitirá rentar una habitación.</VS_MaxDaySelectionTooltip>
+  <VS_RefundPercentage>Reembolso: {0}%</VS_RefundPercentage>
+  <VS_RefundPercentageTooltip>Porcentaje total reembolsado basado en la cantidad de días restantes.</VS_RefundPercentageTooltip>
+  <VS_MaxItemQuantity>Cantidad máxima de artículos: {0}</VS_MaxItemQuantity>
+  <VS_MaxItemQuantityTooltip>La cantidad máxima de artículos que puedes comprar.</VS_MaxItemQuantityTooltip>
+  <VS_SelectTradeableItems>Seleccionar artículos comerciables</VS_SelectTradeableItems>
+  
+  <VS_SettlementEvents>Eventos de asentamiento</VS_SettlementEvents>
+  <VS_EnableSettlementEvents>Habilitar eventos en los asentamientos</VS_EnableSettlementEvents>
+  <VS_RegularDaysCount>Máximo de días entre eventos regulares: {0}</VS_RegularDaysCount>
+  <VS_RegularDaysCountTooltip>La cantidad máxima de días entre eventos regulares.</VS_RegularDaysCountTooltip>
+  <VS_RaidDayMin>Mínimo de días para asalto: {0}</VS_RaidDayMin>
+  <VS_RaidDayMinTooltip>Rango mínimo de días hasta que un asentamiento pueda ser nuevamente asaltado.</VS_RaidDayMinTooltip>
+  <VS_RaidDayMax>Máximo de días para asalto {0}</VS_RaidDayMax>
+  <VS_RaidDayMaxTooltip> Máximo cantidad de días hasta que un asentamiento sea asaltado. (rango)</VS_RaidDayMaxTooltip>
+  
+  <VS_CreditsTranslation>Traducción: Español - Latino</VS_CreditsTranslation>
+  <VS_CreditsTranslation2>Jerson Moncada Foronda (Resx1983 en GitHub :P)</VS_CreditsTranslation2>
+  
+</LanguageData>
