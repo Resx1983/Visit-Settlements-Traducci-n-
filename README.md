@@ -1,0 +1,2 @@
+¡Hello World!
+Para aplicar esta traducción, descarga y descomprime el archivo, busca la carpeta "SpanishLatin", copias/cortas y pegas dentro de los archivos de lenguaje del mod (/visit settlements/languages) y todo listo :P 
